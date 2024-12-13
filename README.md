@@ -72,7 +72,7 @@ train.py --port 6017 --expname 'waymo' \
 
 If you find this project helpful, please consider citing the following paper:
 ```
-@article{huang2024s3gaussian,
+@article{Lu2024DrivingRecon,
         title={DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving},
         author={Hao LU, Tianshuo XU, Wenzhao ZHENG, Yunpeng ZHANG, Wei ZHAN, Dalong DU, Masayoshi Tomizuka, Kurt Keutzer, Yingcong CHEN},
         journal={arXiv preprint arXiv:2412.09043},
