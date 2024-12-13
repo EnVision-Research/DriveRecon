@@ -4,12 +4,23 @@
 > DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving
 ## Demo
 
-| ![demo](./assets/s0.gif) |
-|---------------------------|
+## Demo
 
-| ![demo](./assets/s6.gif) | ![demo](./assets/s7.gif) | ![demo](./assets/s8.gif) |
-|---------------------------|---------------------------|---------------------------|
-
+<div class="video-container">
+  <div class="row">
+    <img src="./assets/s0.gif" alt="demo">
+  </div>
+  <div class="row">
+    <img src="./assets/s6.gif" alt="demo">
+    <img src="./assets/s7.gif" alt="demo">
+    <img src="./assets/s8.gif" alt="demo">
+  </div>
+  <div class="row">
+    <img src="./assets/s1.gif" alt="demo">
+    <img src="./assets/s4.gif" alt="demo">
+    <img src="./assets/s5.gif" alt="demo">
+  </div>
+</div>
 
 
 ## Getting Started
