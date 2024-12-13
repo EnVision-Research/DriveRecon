@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving
 ### [Paper](https://arxiv.org/abs/0000.0000)  
 
