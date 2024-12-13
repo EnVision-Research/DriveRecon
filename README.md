@@ -2,29 +2,17 @@
 ### [Paper](https://arxiv.org/abs/2412.09043)  
 
 > DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving
-
 ## Demo
 
-<div style="display: grid; gap: 10px;">
-  <!-- 第一行：单个视频 -->
-  <div style="grid-column: 1 / -1; text-align: center;">
-    <img src="./assets/s0.gif" alt="demo" style="max-width: 100%; height: auto;">
-  </div>
+| ![demo](./assets/s0.gif) |
+|---------------------------|
 
-  <!-- 第二行：三个视频 -->
-  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-    <img src="./assets/s6.gif" alt="demo" style="max-width: 100%; height: auto;">
-    <img src="./assets/s7.gif" alt="demo" style="max-width: 100%; height: auto;">
-    <img src="./assets/s8.gif" alt="demo" style="max-width: 100%; height: auto;">
-  </div>
+| ![demo](./assets/s6.gif) | ![demo](./assets/s7.gif) | ![demo](./assets/s8.gif) |
+|---------------------------|---------------------------|---------------------------|
 
-  <!-- 第三行：三个视频 -->
-  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-    <img src="./assets/s1.gif" alt="demo" style="max-width: 100%; height: auto;">
-    <img src="./assets/s4.gif" alt="demo" style="max-width: 100%; height: auto;">
-    <img src="./assets/s5.gif" alt="demo" style="max-width: 100%; height: auto;">
-  </div>
-</div>
+| ![demo](./assets/s1.gif) | ![demo](./assets/s4.gif) | ![demo](./assets/s5.gif) |
+|---------------------------|---------------------------|---------------------------|
+
 
 
 ## Getting Started
