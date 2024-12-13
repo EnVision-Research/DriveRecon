@@ -63,7 +63,7 @@ If you find this project helpful, please consider citing the following paper:
 @article{huang2024s3gaussian,
         title={DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving},
         author={Hao LU, Tianshuo XU, Wenzhao ZHENG, Yunpeng ZHANG, Wei ZHAN, Dalong DU, Masayoshi Tomizuka, Kurt Keutzer, Yingcong CHEN},
-        journal={arXiv preprint arXiv:0000.0000},
+        journal={arXiv preprint arXiv:2412.09043},
         year={2024}
       }
 ```
