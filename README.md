@@ -24,7 +24,6 @@ git clone https://github.com/EnVision-Research/DriveRecon.git --recursive
 cd DriveRecon
 conda env create -f environment.yml
 
-pip install -r requirements.txt
 pip install -e submodules/depth-diff-gaussian-rasterization
 pip install -e submodules/simple-knn
 ```
