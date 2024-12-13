@@ -1,0 +1,4 @@
+bash: line 1:  4808 Killed                  CUDA_VISIBLE_DEVICES=4 python train.py -s data/waymo/NOTA_dy32/training/016 --port 6017 --expname 'waymo' --configs 'arguments/nvs.py' --model_path ./NOTA_016 > NOTA_016.log 2>&1
+bash: line 1: 3215923 Killed                  CUDA_VISIBLE_DEVICES=1 python main.py -s data/waymo/NOTA_dy32/training/700 --port 6017 --expname 'waymo' --configs 'arguments/nvs.py' --model_path ./NOTA__700 > NOTA_700.log 2>&1
+bash: line 1: 3281398 Killed                  CUDA_VISIBLE_DEVICES=1 python main.py -s data/waymo/NOTA_dy32/training/700 --port 6017 --expname 'waymo' --configs 'arguments/nvs.py' --model_path ./NOTA__700 > NOTA_700.log 2>&1
+bash: line 1: 3372175 Killed                  CUDA_VISIBLE_DEVICES=1 python main.py -s data/waymo/NOTA_dy32/training/035 --port 6017 --expname 'waymo' --configs 'arguments/nvs.py' --model_path ./NOTA_035_2D > NOTA_035_2D.log 2>&1

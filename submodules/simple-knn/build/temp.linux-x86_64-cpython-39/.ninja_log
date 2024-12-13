@@ -1,0 +1,4 @@
+# ninja log v5
+0	11497	1720240987663719173	/vePFS001/luhao/Code/2d-gaussian-splatting/submodules/simple-knn/build/temp.linux-x86_64-cpython-39/simple_knn.o	4955612691e42b65
+0	18514	1720240994678151985	/vePFS001/luhao/Code/2d-gaussian-splatting/submodules/simple-knn/build/temp.linux-x86_64-cpython-39/ext.o	ab2155dbc3733227
+1	51892	1720241028032953885	/vePFS001/luhao/Code/2d-gaussian-splatting/submodules/simple-knn/build/temp.linux-x86_64-cpython-39/spatial.o	72ac31c545a180d9
