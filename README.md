@@ -1,8 +1,7 @@
 # DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving
-### [Paper](https://arxiv.org/abs/0000.0000)  
+### [Paper](https://arxiv.org/abs/2412.09043)  
 
 > DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving
-## Demo
 
 ## Demo
 
