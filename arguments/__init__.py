@@ -53,7 +53,7 @@ class ModelParams(ParamGroup):
         self._source_path = ""
         self.veiw_num = 3
         self.rendered_num = 4
-        self._model_path = ""
+        self._model_path = "./Temp"
         self.time_lenth = 3
         self._images = "images"
         self._resolution = -1
