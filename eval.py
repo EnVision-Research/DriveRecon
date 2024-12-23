@@ -269,7 +269,7 @@ def evaling(dataset, hyper, opt, pipe, checkpoint):
                 result_diction_sub = gaussians.infer(cams_input[:, i * time_length: (i + 1) *  time_length, ...],
                                                  cams[:,  i * time_length: (i + 1) *  time_length, ...],
                                                  depths[:,  i * time_length: (i + 1) *  time_length, ...],
-                                                 semantic_mask[:, input_index, ...],
+                                                 semantic_mask[:, i * time_length: (i + 1) *  time_length, ...],
                                                  intrinsics[:, i * time_length: (i + 1) *  time_length, ...],
                                                  c2ws[:,  i * time_length: (i + 1) *  time_length, ...],
                                                  viewpoint_stack[ i * time_length * View_Num: (i + 1) *  time_length * View_Num],
