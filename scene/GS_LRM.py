@@ -1074,7 +1074,6 @@ class Gaussian_LRM(nn.Module):
         psnr_ = 0
         self.count = self.count + 1
 
-        # 同场景
         image_gts, image_recstuctions, depth_recstuctions, surf_recstuctions, normal_recstuctions = [], [], [], [], []
         image_dy, image_static = [], []
         rendered_num = 0
@@ -1090,7 +1089,6 @@ class Gaussian_LRM(nn.Module):
                 torch.squeeze(rotations[sub_view]), opacitys[sub_view].squeeze(0), \
                 torch.squeeze(rgbs_or_shs[sub_view]), torch.squeeze(means2Ds[sub_view])
             seg_pre_sub = torch.squeeze(seg_pre[sub_view])
-            breakpoint()
             seg_pre_sub = semantic_mask.reshape(N * T, -1)  # To better evaluate dynamic and static objects, here we use ground-truth to replace the predicted,
             seg_pre_sub = torch.squeeze(seg_pre_sub[sub_view])
 
