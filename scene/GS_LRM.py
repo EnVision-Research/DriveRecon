@@ -1158,13 +1158,13 @@ class Gaussian_LRM(nn.Module):
                                                                             sh_flag=sh_flag,
                                                                             LRM_flag=LRM_flag)
             gt_image = rendered_view.original_image.to(device=means3Ds.device)
-            image_gts.append(gt_image)
-            image_recstuctions.append(image_rendered)
-            depth_recstuctions.append(depth_rendered)
-            surf_recstuctions.append(surf_normal)
-            normal_recstuctions.append(render_normal)
-            image_dy.append(image_rendered_dy)
-            image_static.append(image_rendered_static)
+            image_gts.append(gt_image.detach().cpu())
+            image_recstuctions.append(image_rendered.detach().cpu())
+            depth_recstuctions.append(depth_rendered.detach().cpu())
+            surf_recstuctions.append(surf_normal.detach().cpu())
+            normal_recstuctions.append(render_normal.detach().cpu())
+            image_dy.append(image_rendered_dy.detach().cpu())
+            image_static.append(image_rendered_static.detach().cpu())
 
 
         # means3Ds, scales, rotations, opacitys, rgbs_or_shs, means2Ds
@@ -1290,11 +1290,11 @@ class Gaussian_LRM(nn.Module):
                                                                                         sh_flag=sh_flag,
                                                                                         LRM_flag=LRM_flag)
             gt_image = rendered_view.original_image.to(device=means3Ds.device)
-            image_gts.append(gt_image)
-            image_recstuctions.append(image_rendered)
-            depth_recstuctions.append(depth_rendered)
-            surf_recstuctions.append(surf_normal)
-            normal_recstuctions.append(render_normal)
+            image_gts.append(gt_image.detach().cpu())
+            image_recstuctions.append(image_rendered.detach().cpu())
+            depth_recstuctions.append(depth_rendered.detach().cpu())
+            surf_recstuctions.append(surf_normal.detach().cpu())
+            normal_recstuctions.append(render_normal.detach().cpu())
         # means3Ds, scales, rotations, opacitys, rgbs_or_shs, means2Ds
         return_diction = {
                 'image_gts': image_gts,
