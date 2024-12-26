@@ -99,7 +99,7 @@ You need to download the model code and model parameters to this folder.
 To preprocess specific scenes of the dataset, use the following command:
 
 ```shell
-python preprocess.py \
+python preprocess_main.py \
     --data_root data/waymo/raw/ \
     --target_dir data/waymo/processed \
     --split training \
@@ -112,7 +112,7 @@ Alternatively, preprocess different splits of the NOTR dataset by providing the 
 
 ```shell
 # preprocess the static split
-python preprocess.py \
+python preprocess_main.py \
     --data_root data/waymo/raw/ \
     --target_dir data/waymo/processed \
     --split training \
