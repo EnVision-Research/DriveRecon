@@ -1,4 +1,4 @@
-# DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving
+# [NeurIPS 2025]DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving
 ### [Paper](https://arxiv.org/abs/2412.09043)  
 
 > DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving
@@ -70,7 +70,8 @@ If you find this project helpful, please consider citing the following paper:
 @article{Lu2024DrivingRecon,
         title={DrivingRecon: Large 4D Gaussian Reconstruction Model For Autonomous Driving},
         author={Hao LU, Tianshuo XU, Wenzhao ZHENG, Yunpeng ZHANG, Wei ZHAN, Dalong DU, Masayoshi Tomizuka, Kurt Keutzer, Yingcong CHEN},
-        journal={arXiv preprint arXiv:2412.09043},
-        year={2024}
+        journal={NeurIPS},
+        year={2025}
       }
 ```
+
